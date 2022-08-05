@@ -16,6 +16,7 @@ const Displaytable = (props) => {
         <td className='fromdatatable'><button onClick={() => deleteUser2(user.id)}>delete</button></td>
         <td className='fromdatatable'>  <button >edit</button></td>
       </tr>
+    </>
   ))
 }
 export default Displaytable
