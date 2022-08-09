@@ -1,5 +1,5 @@
 const Retrivedata = () => {
-    const data = localStorage.getItem('users');
+    const data = localStorage.getItem('userdata');
     if (data) {
       return JSON.parse(data);
     }
